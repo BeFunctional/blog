@@ -10,7 +10,7 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'http://165.225.175.38',
+        url: 'http://blog.befunctional.co',
         mail: {},
         database: {
             client: 'sqlite3',

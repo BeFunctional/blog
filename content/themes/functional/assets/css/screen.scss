@@ -476,10 +476,15 @@ margin on the iframe, cause it breaks stuff. */
   height: 100%;
   margin-bottom: 5rem;
   text-align: center;
-  background: #222 no-repeat center 30%;
+  background-color: #222;
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
   overflow: hidden;
   z-index: 1;
+  &.bg-offset {
+    background-position: center 30%;
+  }
   nav, .vertical, .scroll-down, .inner {
 	z-index: 1;
   }

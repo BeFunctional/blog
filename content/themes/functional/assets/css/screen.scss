@@ -483,7 +483,7 @@ margin on the iframe, cause it breaks stuff. */
   nav, .vertical, .scroll-down, .inner {
 	z-index: 1;
   }
-  .bg-overlay {
+  &:after {
 	z-index: 0;
 	position: absolute;
 	width: 100%;

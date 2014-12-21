@@ -463,6 +463,12 @@ margin on the iframe, cause it breaks stuff. */
   vertical-align: middle;
 }
 
+/* Disqus styles */
+#disqus_thread {
+  border-top: 4px solid #eee;
+  margin-top: 3em;
+}
+
 
 /* ==========================================================================
    4. General - The main styles for the the theme
